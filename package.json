@@ -1,0 +1,29 @@
+{
+  "name": "platzigram-client",
+  "version": "1.0.0",
+  "description": "Platzigram API Client.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && ava"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moisesdelacruz/platzigram-client.git"
+  },
+  "author": "Moises De La Cruz <moisesdelacruz.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moisesdelacruz/platzigram-client/issues"
+  },
+  "homepage": "https://github.com/moisesdelacruz/platzigram-client#readme",
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "babel-eslint": "^7.2.3",
+    "standard": "^10.0.2",
+    "uuid-base62": "^0.1.0"
+  }
+}
