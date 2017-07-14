@@ -156,7 +156,7 @@ test('auth', async t => {
   let token = 'xxx-xxx-xxx'
 
   nock(options.endpoints.auth)
-    .get('/', credentials)
+    .post('/', credentials)
     .reply(200, token)
 
   let result = await client.auth(credentials.username, credentials.password)
